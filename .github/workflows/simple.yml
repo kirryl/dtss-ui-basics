@@ -1,0 +1,9 @@
+name: Actions in action
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a message
+        run: echo "Hello World!"
